@@ -30,7 +30,7 @@ const Gallery = () => {
   }
 
   const results = response.data.results;
-  console.log(results);
+ 
  if (results.length < 1) {
  return( 
  <section className="image-container">
